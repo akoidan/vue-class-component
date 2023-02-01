@@ -2,7 +2,8 @@
  * Public APIs
  */
 
-export { Vue, ClassComponentHooks } from './vue'
+export  type { ClassComponentHooks } from './vue'
+export  { Vue } from './vue'
 
 export { Options, createDecorator, mixins, setup } from './helpers'
 
@@ -12,7 +13,7 @@ export { prop } from './props'
  * Other types
  */
 
-export {
+export type {
   VueBase,
   VueMixin,
   VueStatic,
@@ -20,7 +21,7 @@ export {
   PublicProps,
 } from './vue'
 
-export {
+export type {
   PropOptions,
   PropOptionsWithDefault,
   PropOptionsWithRequired,
@@ -32,7 +33,7 @@ export {
   ExtractProps,
 } from './props'
 
-export {
+export type {
   VueDecorator,
   MixedVueBase,
   UnionToIntersection,

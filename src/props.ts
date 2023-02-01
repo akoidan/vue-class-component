@@ -1,5 +1,5 @@
-import { Prop, PropType } from 'vue'
-import { Vue } from './vue'
+import type { Prop, PropType } from 'vue'
+import type { Vue } from './vue'
 
 declare const withDefaultSymbol: unique symbol
 
